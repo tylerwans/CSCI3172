@@ -1,3 +1,10 @@
+// Question a) The const variable have Block Scope 
+
+// Question b) Both the let and const variables were added in the 2015 ES6 update
+
+
+
+
 //Create a function to calculate the area of a circle with a radius of 6
 function calculateCircleArea() {
 const r = 6;

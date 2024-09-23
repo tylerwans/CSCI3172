@@ -1,8 +1,8 @@
-# Lecture 5 activity
+# Lab 2
 
-* *Date Created*: 16 09 2024
-* *Last Modification Date*: 19 09 2024
-* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/activities/lecture5/>
+* *Date Created*: 23 09 2024
+* *Last Modification Date*: 23 09 2024
+* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/lab2/>
 * *Git URL*: <https://git.cs.dal.ca/wansbrough/csci3172>
 
 
