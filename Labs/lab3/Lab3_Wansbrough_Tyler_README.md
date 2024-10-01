@@ -2,7 +2,7 @@
 
 * *Date Created*: 23 09 2024
 * *Last Modification Date*: 24 09 2024
-* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/activities/lecture8/>
+* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/lab3/>
 * *Git URL*: <https://git.cs.dal.ca/wansbrough/csci3172.git>
 
 
