@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(179, 9, 9);
+    margin-bottom: 20px;
+}
+
+#s-greeting {
+    font-size: xx-large;
+    color: darkblue;
+    background-color: cornflowerblue;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#inputs{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 0;
+    padding: 2px;
+    color: crimson;
+    display: block;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #3bc040;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    
+}
