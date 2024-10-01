@@ -68,25 +68,39 @@ The code above was created by adapting the code in [W3 schools](https://www.w3sc
 *Repeat as needed*
 
 
-### File Name
+### script.js
 
-*Lines ## - ##*
+*Lines 54-58*
 
 ```
 Copy and paste your code on lines mentioned 
+//check even or odd
+    if (number%2 === 0) {
+        result1 = "The number entered is an even ";
+    }
+    else {
+        result1 = "The number entered is an odd ";
+    }
 
 ```
 
-The code above was created by adapting the code in [NAME](link) as shown below: 
+The code above was created by adapting the code in [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) as shown below: 
 
 ```
 Copy and paste the snippet of code you are referencing
 
+function isEven(value){
+    if (value%2 == 0)
+        return true;
+    else
+        return false;
+}
+
 ```
 
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
+- <!---How---> The code in [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) was implemented by changing the results of the if and else statement
+- <!---Why---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) Code was used because i forgot how to check even or odd
+- <!---How---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript)'s Code was modified by Tyler Wansbrough
 
 *Repeat as needed*
 
