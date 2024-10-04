@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 4</title>
+		<meta name="description" content="Title of Site">
+		<meta name="author" content="Author Name">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+		
+	</head>
+
+	<body>
+		<div class="page">
+			<section id="description">
+				<h1>Lab 4</h1>
+				
+			</section>
+			<div class="content">
+				<form class="registration" id="register" onsubmit="validate()">
+					<h3>Registration</h3>
+					<label for="firstName">First Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="firstName" id="firstName">
+					<br>
+					<label for="lastName">Last Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="lastName" id="lastName">
+					<br>
+					<label for="email">Email</label>
+					<span class="format">* Must follow the traditional email format</span>
+					<br>
+					<input type="text" name="email" id="email">
+					<br>
+					
+					<label for="genders">Choose your gender</label>
+                    <br>
+					<input type="radio" id="male" name="genderClass" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="genderClass" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="non-binary" name="genderClass" value="non-binary">
+                    <label for="jnon-binary">Non-binary</label>
+                    <input type="radio" id="no-answer" name="genderClass" value="no-answer">
+                    <label for="no-answer">Prefer not to answer</label>
+					<br>
+                    <label for="country">Select your country</label>
+                    <select name="countries" id="countries">
+                        <option value="canada">Canada</option>
+                        <option value="america">United States</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="japan">Japan</option>
+                        <option value="romania">Romania</option>
+                      </select>
+                      <br>
+					<button type="submit">Submit</button>
+
+				</form>
+			</div>
+		</div>
+		<footer>
+			<p>&copy;Tyler-Lab4</p>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,8 +1,8 @@
-# Lab 3
+# Lab 4
 
-* *Date Created*: 23 09 2024
-* *Last Modification Date*: 24 09 2024
-* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/lab3/>
+* *Date Created*: 02 10 2024
+* *Last Modification Date*: 02 10 2024
+* *Lab URL*: <https://web.cs.dal.ca/~wansbrough/csci3172/lab4/>
 * *Git URL*: <https://git.cs.dal.ca/wansbrough/csci3172.git>
 
 
@@ -29,49 +29,58 @@ If in completing your lab / assignment / project you used any interpretation of 
 
 ### Index.html
 
-*lines 42 to 51*
+*lines 16 to 25*
 
 ```
 Copy and paste your code on lines mentioned 
 
-<br>
-					<input type="radio" id="male" name="genderClass" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="genderClass" value="female">
-                    <label for="female">Female</label>
-                    <input type="radio" id="non-binary" name="genderClass" value="non-binary">
-                    <label for="jnon-binary">Non-binary</label>
-                    <input type="radio" id="no-answer" name="genderClass" value="no-answer">
-                    <label for="no-answer">Prefer not to answer</label>
-					<br>
-```
+<select name="days-of-week" id="days">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
 
-The code above was created by adapting the code in [W3 schools](https://www.w3schools.com/tags/att_input_type_radio.asp) as shown below: 
-
-```
-<input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">HTML</label><br>
-<input type="radio" id="css" name="fav_language" value="CSS">
-<label for="css">CSS</label><br>
-<input type="radio" id="javascript" name="fav_language" value="JavaScript">
-<label for="javascript">JavaScript</label>
+        </select>
 
 ```
 
-- <!---How---> The code in [W3 schools](https://www.w3schools.com/tags/att_input_type_radio.asp) was implemented by knowing the syntax for radio buttons
-- <!---Why---> [W3 schoolsW3 schools](https://www.w3schools.com/tags/att_input_type_radio.asp)'s Code was used because it showed how to use the radio buttons
-- <!---How---> [W3 schools](https://www.w3schools.com/tags/att_input_type_radio.asp)'s Code was modified by Tyler Wansbrough
+The code above was created by adapting the code in [W3 schools](https://www.w3schools.com/tags/tag_select.asp) as shown below: 
+
+```
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+```
+
+- <!---How---> The code in [W3 schools](https://www.w3schools.com/tags/tag_select.asp) was implemented by knowing the syntax for select
+- <!---Why---> [W3 schoolsW3 schools](https://www.w3schools.com/tags/tag_select.asp)'s Code was used because it showed how to use the select 
+- <!---How---> [W3 schools](https://www.w3schools.com/tags/tag_select.asp)'s Code was modified by Tyler Wansbrough
 
 *Repeat as needed*
 
 
-### file
+### script.js
 
-*Lines *
+*Lines 54-58*
 
 ```
 Copy and paste your code on lines mentioned 
-
+//check even or odd
+    if (number%2 === 0) {
+        result1 = "The number entered is an even ";
+    }
+    else {
+        result1 = "The number entered is an odd ";
+    }
 
 ```
 
@@ -80,6 +89,12 @@ The code above was created by adapting the code in [Stackoverflow](https://stack
 ```
 Copy and paste the snippet of code you are referencing
 
+function isEven(value){
+    if (value%2 == 0)
+        return true;
+    else
+        return false;
+}
 
 ```
 
