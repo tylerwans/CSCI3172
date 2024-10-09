@@ -102,6 +102,35 @@ function isEven(value){
 - <!---Why---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) Code was used because i forgot how to check even or odd
 - <!---How---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript)'s Code was modified by Tyler Wansbrough
 
+
+
+### script.js
+
+*Lines 67*
+
+```
+Copy and paste your code on lines mentioned 
+//check even or odd
+    
+    const gender = document.querySelector('input[name="genderClass"]:checked')?.value;
+```
+
+The code above was created by adapting the code in [Stackoverflow](https://stackoverflow.com/questions/63494947/get-value-from-radio-button-inputname-genderchecked-returns-null) as shown below: 
+
+```
+Copy and paste the snippet of code you are referencing
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const selectedGender = document.querySelector("input[name='gender']:checked");
+  console.log(selectedGender);
+});
+
+```
+
+- <!---How---> The code in [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) was implemented by printing radio elements
+- <!---Why---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript) Code was used because i did not know why my elements werent printing
+- <!---How---> [Stackoverflow](https://stackoverflow.com/questions/5016313/how-to-determine-if-a-number-is-odd-in-javascript)'s Code was modified by Tyler Wansbrough
 *Repeat as needed*
 
 

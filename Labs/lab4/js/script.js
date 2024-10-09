@@ -53,3 +53,25 @@ function validate() {
     }
 
 }
+
+
+function printResults() {
+    document.getElementById('register').addEventListener('submit', function(event) {
+        // Prevent default form submission
+        event.preventDefault();
+
+        // Retrieve form data
+        const firstName = document.getElementById('firstName').value;
+        const lastName = document.getElementById('lastName').value;
+        const email = document.getElementById('email').value;
+        const gender = document.querySelector('input[name="genderClass"]:checked')?.value;
+        const country = document.getElementById('countries').value;
+
+        // Display the data on the webpage
+        const outputDiv = document.getElementById('output');
+        
+        outputDiv.innerHTML += `<p>First Name: ${firstName}, Last Name: ${lastName}, Email: ${email}, Gender: ${gender}, Country: ${country}</p>`;
+    });
+}
+
+printResults();
