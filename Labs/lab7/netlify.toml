@@ -1,5 +1,4 @@
 [build]
-  base = "."
+  base = "Labs/lab7"  # This should match your structure
   publish = "build"
   command = "npm run build"
-  
