@@ -60,7 +60,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     let compMap = 0;
     let neitherMap = 0;
 
-    // Using map 
+    
     numbers.map(number => {
         if (number === 1) {
             neitherMap++;
